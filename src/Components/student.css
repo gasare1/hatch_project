@@ -1,0 +1,53 @@
+
+
+.card {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    border-radius: 2%;
+}
+.card::-webkit-scrollbar {
+    display: none;
+  }
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-color:black;
+    box-shadow: 0 0 0 0.5pt gray;
+    float: left;
+  }
+.main-text{
+justify-content: center;
+display: flex;
+}
+.body-info{
+    margin-left: 20px;
+}
+.plusminus-btn:hover {
+    color: rgb(0, 0, 0);
+  }
+.plusminus-btn{
+    color: gray;
+    font-size: 30px;
+    cursor: pointer;
+}
+.button{
+    height: 35px;
+    outline-color: white;
+    width: 70px;
+    color:black;
+    background-color: rgb(216, 216, 216);
+    box-shadow: 0 0 0 0.5pt rgb(255, 254, 254);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
